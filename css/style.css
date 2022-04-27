@@ -90,11 +90,6 @@ ul > li {
     color: white;
 }
 
-.command , .angle {
-    padding: 0.4rem;
-    text-align: center;
-}
-
 .command > i {
     font-size: 1.5rem;
 }
@@ -103,11 +98,36 @@ ul > li {
     font-size: 0.7rem;
 }
 
+
+/* BOTTOM LEFT SECTION */
+
+.bottom-sect:first-child {
+    flex-basis: content;
+}
+
+.command , .angle {
+    padding: 0.4rem;
+    text-align: center;
+}
+
 .angle {
     align-items: center;
     justify-content: center;
     font-size: 0.6rem;    
 }
+
+/* BOTTOM CENTRAL SECTION */
+
+.bottom-sect:nth-child(2) {
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.fa-share-from-square {
+    color: #47c900;
+}
+
+/* BOTTOM RIGHT SECTION */
 
 .end-meet {
     color: red !important;
@@ -115,7 +135,7 @@ ul > li {
     flex-basis: content;
     align-items: center;
     font-size: 0.8rem;
-    padding: 0.6rem
+    padding: 1.25rem
 }
 
 
