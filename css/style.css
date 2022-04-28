@@ -71,6 +71,11 @@ ul > li {
 
 .chat-box {
     position: relative;
+    height: fit-content;
+}
+
+img > .chat-box {
+    height: 100%;
 }
 
 .username {
