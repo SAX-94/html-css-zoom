@@ -66,12 +66,14 @@ ul > li {
     justify-content: space-between;
     column-gap: 0.3rem;
     row-gap: 0.4rem;
+    overflow: auto;
     max-height: 80.5%;
 }
 
 .chat-box {
     position: relative;
     height: fit-content;
+    flex-grow: 1;
 }
 
 img > .chat-box {
