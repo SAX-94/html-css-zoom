@@ -60,7 +60,6 @@ ul > li {
 .chat-room-cont {
     height: calc(100vh - 120px);
     margin-left: 1.5rem;
-    margin-right: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
@@ -88,7 +87,7 @@ ul > li {
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    padding: 0.3rem 0.15rem;
+    padding: 0.3rem 0.35rem;
     font-size: 0.75rem;
 }
 
