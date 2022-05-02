@@ -59,14 +59,12 @@ ul > li {
 /* CHAT ROOM */
 
 .chat-room-cont {
-    height: calc(100vh - 120px);
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: auto;
-    max-height: 80.5%;
 }
 
 .chat-box {
@@ -74,6 +72,7 @@ ul > li {
     flex-grow: 1;
     padding: 0.4rem 0.3rem;
     flex-basis: calc(100% / 7);
+    height: calc(100% / 5);
 }
 
 .chat-box img {
